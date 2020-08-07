@@ -108,7 +108,7 @@ The size, in bits, of the key.
 
 ### -field cbPublicExp
 
-The size, in bytes, of the exponent of the key.
+The size, in bytes, of the exponent of the key. Public exponents larger than (2^64 - 1) are not supported.
 
 
 ### -field cbModulus
